@@ -1,0 +1,189 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.caixa-superior{
+    background-image:url("./Imagem\ para\ DEV\ Contabil.png ");
+    background-size: cover;
+    height: 90vh;
+}
+
+.cabecalho{
+    padding-top: 25px;
+    padding-left: 35px;    
+}
+html{
+    scroll-behavior: smooth 1s;
+}
+
+.Titulo-cabecalho{
+    font-size: 24px;
+    color:white; 
+    display: inline;
+}
+
+.link-cabecalho{
+    font-size: 16px;
+    color: #FFFFFF;
+    display: inline;
+    margin-left: 35px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 58px;
+    color:white;
+    position: relative;
+    top: 425px;
+    margin-left: 35px;
+}
+
+form{
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    opacity: 0;
+    transition:visibility 0s, opacity 1s linear;
+    float: right;
+    padding: 35px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 70px;
+    visibility: hidden;
+}
+
+input{
+    display: block;
+    background-color: #f9f9f9;
+    border:1px solid #e6e6e6;
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+Textarea{
+    display: block;
+    width: 250px;
+    height: 80px;
+    background-color: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.titulo-formulario{
+    font-size: 24px;
+    color: #252842;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label{
+    font-size:14px;
+    color: #252b42;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #40bb15;
+    color:#FFFFFF;
+}
+
+.caixa-central{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:50px;
+}
+
+#titulo-meio{
+    font-size:40px;
+    color:#252b42;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card{
+    width:300px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #e6e6e6;
+}
+
+.titulo-card{
+    background: #219653;
+    color:#FFFFFF;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul{
+    padding: 20px;
+}
+
+li{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.caixa-inferior{
+    background-color: #000425;
+}
+
+#titulo-inferior{
+    color:#FFFFFF;
+    font-size:40px;
+    text-align: center;
+}
+
+.paragrafo-inferior{
+    font-size:28px;
+    color:#FFFFFF;
+    text-align: center;
+    margin: 20px 50px 50px 50px;
+}
+.mostrar-formulario{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* width = largura
+    height = altura
+    Background-image = troca a imagem de fundo
+   
+    font-size => troca o tamanho do texto
+    color=> troca a cor do texto
+    font-family=> troca a fonte do texto
+    Display=> troca a forma que o elemento se comporta na tela (ex.: fica sózinho na linha ou fica na mesma linha com outros elementos)
+    top=> cima
+    bottom=> baixo
+    left=> esquerda
+    Right=> direito
+    cursor=> muda o cursor do mouse
+    position=> serve para definir como iremos pocionar os elementos
+    border-radius=> arredonda as bordas
+    float=> joga o elemento para o lado comandado
+    border=>muda a cor, tamanho e tipo de borda do elemento
+    opacity => opacidade/transparencia do elemento
+
+    Unidades de medidas:
+
+    PX => Pixels
+    vh => View heiht / a altura da tela dividido por cem
+    vw => View width / a largura da tela dividido por cem
+    cm => Centímetro
+*/
